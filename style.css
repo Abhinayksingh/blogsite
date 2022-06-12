@@ -1,58 +1,96 @@
 body{
     width:100%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(food-bg.webp);
+    margin:0;
+    padding:0;
 }
 .header{
     display:flex;
     width:100%;
-    background-color: black;
-    text-align:left;
+    background-color: #fad0c4;
+    background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
+
     color:white;
-    padding:0 1rem;
-    justify-content:center;
+    justify-content:space-between;
 }
  .nave .list{
    text-align:center;
    text-decoration: none;
    color:white;
    font-weight:200;
+
+
    
 }
+li{
+    list-style:none;
+    margin-left:30px;
+
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    padding:10px;
+  
+}
+ul{
+    display: flex;
+    padding:20px;
+}
  .food-items {
-    display:flex;
-    background-color:brown;
+
     flex-direction: column;
     align-items:center;
-    padding: 0 6rem;
+    margin:100px;
+    
+    
     
 }
 img{
     border-radius: 8px;
-    width:400px;
+    width:600px;
     height:300px;
+    
     border:1px solid #ddd;
     
 }
 p{
-color:#fff;
+
 font-weight:200;
-font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left:50px;
 }
 .food-header{
     text-align:center;
-    border-bottom: 2px solid #23de12 ;
+
+    padding:30px;
 }
 
 .footer{
-    background-color: #0d0e0d;
+    background: linear-gradient(45deg, red, blue);
     text-align:center;
     text-decoration:none;
     text-transform: upper;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(315deg, #fad0c4 0%, #f1a7f1 74%);
     
 }
 
 .footer-name-list{
     color:white;
-    font-family:sans-serif;
     text-decoration:none;
+    
+}
+.food{
+    display:flex;
+    flex-direction:row;
+    box-shadow: 5px 5px 5px 5px linear-gradient(45deg, red, blue);
+    margin:20px;
+    padding:50px;
+    justify-content:space-between;
+    background-color:white;
     
 }
